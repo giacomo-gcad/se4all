@@ -1,0 +1,1007 @@
+{
+    "values": {
+        "inputs": {
+            "roads": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 159.54996187500006, 
+                            "x": 664.4498610478057
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "roads", 
+                            "shapetype": [
+                                1
+                            ], 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Roads"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "transmissionlines": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 158.27368031249998, 
+                            "x": 400.2595776103059
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "transmissionlines", 
+                            "shapetype": [
+                                1
+                            ], 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "TransmissionLines"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "referencegrid1km": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 37.36685060817706, 
+                            "x": 132.95552323530592
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "referencegrid1km", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "ReferenceGrid 1km"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "ghi": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 157.8288446875, 
+                            "x": 127.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "ghi", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "GHI Ecowas"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "exclusionareasmask": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 843.0, 
+                            "x": 134.4498610478057
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "exclusionareasmask", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Exclusion Areas Mask"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {
+            "outfile_ALGGRASSR.MAPCALCULATOR_9": "Total LCOE for PV on-grid systems (US$/MWh)", 
+            "outfile_ALGGRASSR.MAPCALCULATOR_8": "LCOE for connection to grid (US$/MWh) of PV on grid systems", 
+            "ALG_DESC": "This model computes the Levelized Cost of Electriciy (LCOE) for PV on-grid systems in ECOWAS region.\n\nLCOE components for generation, transmission and road construction are computed separately, then summed up to derive the total LCOE, expressed in Euro/MWh.", 
+            "dni": "Direct Normal Irradiance in KWh/m2/year\nFile: DNI_ecowas.tif, output from module 2.1", 
+            "outfile_ALGGRASSR.MAPCALCULATOR_2": "LCOE for generation (US$/MWh) with PV on grid systems", 
+            "outfile_ALGGRASSR.MAPCALCULATOR_6": "LCOE for read construction (US$/MWh) for PV on grid systems", 
+            "ALG_HELP_CREATOR": "Giacomo Delli \nSE4ALL EU-TAF expert \nThe EU 's Technical Assistance Facility (TAF) \nfor the Sustainable Energy for All (SE4ALL) initiative Central and Western Africa", 
+            "roads": "Road network, as provided by WAPP.\nFile: groads_ecowas.shp. \nThe field FCLASS is used for unselecting Trails\n", 
+            "ecowpop": "Population Density, as provided by ECREEE \nFile: ecreee_ecowpop.tif", 
+            "rclrulesecowpop": "File: ClassificationRules\\GeogrPotential\\ReclassPopulationDensity_PV-ongrid.txt", 
+            "rclrulesghi": "File: ClassificationRules\\GeogrPotential\\ReclassGHI.txt", 
+            "outfile_ALGGRASSR.MAPCALCULATOR_11": "LCOE for generation (US$/MWh) with CSP no storage systems", 
+            "rclrulesroads": "File: ClassificationRules\\GeogrPotential\\ReclassDistanceRoads_PV-ongrid.txt", 
+            "outfile_ALGGRASSR.MAPCALCULATOR_13": "LCOE for read construction (US$/MWh) for CSP no storage systems", 
+            "outfile_ALGGRASSR.MAPCALCULATOR_12": "LCOE for connection to grid (US$/MWh) of CSP no storage systems", 
+            "outfile_ALGGRASSR.MAPCALCULATOR_15": "LCOE for connection to grid (US$/MWh) of CSP 6 hr storage systems", 
+            "outfile_ALGGRASSR.MAPCALCULATOR_14": "Total LCOE for CSP no storage systems (US$/MWh)", 
+            "outfile_ALGGRASSR.MAPCALCULATOR_17": "Total LCOE for CSP 6 hr storage systems (US$/MWh)", 
+            "outfile_ALGGRASSR.MAPCALCULATOR_16": "LCOE for read construction (US$/MWh) for CSP 6 hr storage systems", 
+            "MASKED_ALGSAGAGRIDMASKING_2": "Geographical Potential for PV on-grid systems, based on the presently existing transmission lines + planned lines up to 2020\n\nEquation: \u01a9 (FactorClass * FactorWeight)\n\nWeights are those used by the Univerisity of Geneva. They can be computed with the Spreadsheet AHP_GeogrPot.xlsx, using a simplified version of the Analytical Hierarchy Process.\n", 
+            "MASKED_ALGSAGAGRIDMASKING_3": "Geographical Potential for PV on-grid systems, based on the presently existing transmission lines + planned lines up to 2030\n\nEquation: \u01a9 (FactorClass * FactorWeight)\n\nWeights are those used by the Univerisity of Geneva. They can be computed with the Spreadsheet AHP_GeogrPot.xlsx, using a simplified version of the Analytical Hierarchy Process.\n", 
+            "rcldistsettlements": "File: ClassificationRules\\GeogrPotential\\ReclassDistanceSettlements.txt", 
+            "MASKED_ALGSAGAGRIDMASKING_1": "Total LCOE (US$/MWh) for PV on grid systems", 
+            "rcllandcoverurban": "File: ClassificationRules\\GeogrPotential\\ReclassLandCover_Urban.txt", 
+            "exclusionmaskpvongrid": "Exclusion Areas for PV on-grid systems.\nRaster File, output from Module 1.2 ", 
+            "ALG_VERSION": "2.0", 
+            "landcover": "Land Cover layer, as downloaded from https://www.iscgm.org/gmd/ \nFile: gm_lc_v3.tif", 
+            "exclusionareasmask": "Exclusion Areas Mask for PV on-grid systems (output from module 1.2)", 
+            "rcldistancegridlines": "File: ClassificationRules\\GeogrPotential\\ReclassDistanceGridLines_PV-ongrid.txt", 
+            "OUTPUT_ALGGDALOGRTRANSLATE_1": "Total LCOE (Euro/MWh) for PV on grid systems", 
+            "ALG_CREATOR": "Giacomo Delli \nSE4ALL EU-TAF expert \nThe EU 's Technical Assistance Facility (TAF) \nfor the Sustainable Energy for All (SE4ALL) initiative Central and Western Africa", 
+            "transmissionlines": "TransmissionLines.shp, lines, as provided by WAPP.\nThe fields Voltage and Situation are used to select existing grid lines with Voltage > 50kV", 
+            "outfile_ALGGRASSR.MAPCALCULATOR_10": "LCOE for generation (US$/MWh) with CSP 6 hr storage systems", 
+            "referencegrid1km": "Reference Grid for all layers, resolution: 1 km\nRaster File: ReferenceGrid1000.tif\n", 
+            "wdpawa": "WDPA_July2016_wa.shp. \nSource file (WDPA_July2016-shapefile.zip) was downloaded from http://www.protectedplanet.net/ , then clipped in ArcGIS on the boundaries of Ecowas region", 
+            "ghi": "Global Horizontal Irradiance in KWh/m2/day\nFile:GHI_ecowas.tif, output from module 2.1"
+        }, 
+        "group": "4. EconomicPotential", 
+        "name": "4.1 LCOE PV on grid", 
+        "algs": {
+            "GDALOGRWARPREPROJECT_1": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 237.43951568826392, 
+                            "x": 129.45872033245382
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [
+                        "MODELERTOOLSRASTERLAYERBOUNDS_1"
+                    ], 
+                    "params": {
+                        "EXT_CRS": "EPSG:102022", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 5, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "ghi"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 0, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Reproject GHI"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.MAPCALCULATOR_7": {
+                "values": {
+                    "name": "GRASSR.MAPCALCULATOR_7", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 559.8567305308926, 
+                            "x": 401.04195334044164
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "fmap": null, 
+                        "emap": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "dmap": null, 
+                        "cmap": null, 
+                        "bmap": null, 
+                        "amap": {
+                            "values": {
+                                "alg": "GDALOGRPROXIMITY_2", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "formula": "A/1000", 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.mapcalculator", 
+                    "description": "Convert dist. lines in km"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.MAPCALCULATOR_5": {
+                "values": {
+                    "name": "GRASSR.MAPCALCULATOR_5", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 558.7224608433925, 
+                            "x": 665.083836546809
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "fmap": null, 
+                        "emap": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "dmap": null, 
+                        "cmap": null, 
+                        "bmap": null, 
+                        "amap": {
+                            "values": {
+                                "alg": "GDALOGRPROXIMITY_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "formula": "A/1000", 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.mapcalculator", 
+                    "description": "Convert dist. roads in km"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.MAPCALCULATOR_4": {
+                "values": {
+                    "name": "GRASSR.MAPCALCULATOR_4", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 474.5163495933922, 
+                            "x": 130.26213480309787
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "fmap": null, 
+                        "emap": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "dmap": null, 
+                        "cmap": null, 
+                        "bmap": null, 
+                        "amap": {
+                            "values": {
+                                "alg": "GRASSR.RESAMP.INTERP_1", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "formula": "((1-0.04)*(1-0.14)*(A*1000/24))/1000", 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.mapcalculator", 
+                    "description": "Calc cf PV ongrid"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.MAPCALCULATOR_2": {
+                "values": {
+                    "name": "GRASSR.MAPCALCULATOR_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 653.2750739683926, 
+                            "x": 135.05122167809787
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "fmap": null, 
+                        "emap": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "dmap": null, 
+                        "cmap": null, 
+                        "bmap": null, 
+                        "amap": {
+                            "values": {
+                                "alg": "GRASSR.MAPCALCULATOR_4", 
+                                "output": "outfile"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "formula": "((1071.43*1000*0.110168072)+22321.43)/(A*8760)+0", 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.mapcalculator", 
+                    "description": "Calc. LCOEgen PV ongrid"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRTRANSLATE_1": {
+                "values": {
+                    "name": "GDALOGRTRANSLATE_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT": {
+                            "values": {
+                                "description": "LCOE_Total_PVongrid", 
+                                "pos": {
+                                    "values": {
+                                        "y": 996.2482435246034, 
+                                        "x": 523.1378755279416
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 924.2482435246034, 
+                            "x": 402.13787552794156
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "ZLEVEL": 6.0, 
+                        "PROJWIN": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "SDS": false, 
+                        "BIGTIFF": 0, 
+                        "OUTSIZE_PERC": true, 
+                        "RTYPE": 5, 
+                        "COMPRESS": 4, 
+                        "SRS": "", 
+                        "NO_DATA": null, 
+                        "OUTSIZE": 100.0, 
+                        "TILED": false, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "alg": "SAGAGRIDMASKING_1", 
+                                "output": "MASKED"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "TFW": false, 
+                        "PREDICTOR": 1.0, 
+                        "EXPAND": 0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:translate", 
+                    "description": "Compress Total LCOE"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.MAPCALCULATOR_6": {
+                "values": {
+                    "name": "GRASSR.MAPCALCULATOR_6", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 658.1012674058923, 
+                            "x": 663.6540964654419
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "fmap": null, 
+                        "emap": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "dmap": null, 
+                        "cmap": null, 
+                        "bmap": {
+                            "values": {
+                                "alg": "GRASSR.MAPCALCULATOR_4", 
+                                "output": "outfile"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "amap": {
+                            "values": {
+                                "alg": "GRASSR.MAPCALCULATOR_5", 
+                                "output": "outfile"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "formula": "(A*(363392.86*0.110168072+0)/(B*20*8760))+0.0001", 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.mapcalculator", 
+                    "description": "Calc LCOEroad PV ongrid"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSV.TO.RAST.VALUE_1": {
+                "values": {
+                    "name": "GRASSV.TO.RAST.VALUE_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 397.50380449354856, 
+                            "x": 664.810384178098
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "use": 0, 
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "value": 1.0, 
+                        "input": {
+                            "values": {
+                                "alg": "GRASSV.EXTRACT_1", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:v.to.rast.value", 
+                    "description": "Rasterize Roads 1 km"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.MAPCALCULATOR_9": {
+                "values": {
+                    "name": "GRASSR.MAPCALCULATOR_9", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 762.2482435246034, 
+                            "x": 401.81350781528545
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "fmap": null, 
+                        "emap": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "dmap": null, 
+                        "cmap": {
+                            "values": {
+                                "alg": "GRASSR.MAPCALCULATOR_6", 
+                                "output": "outfile"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "bmap": {
+                            "values": {
+                                "alg": "GRASSR.MAPCALCULATOR_8", 
+                                "output": "outfile"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "amap": {
+                            "values": {
+                                "alg": "GRASSR.MAPCALCULATOR_2", 
+                                "output": "outfile"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "formula": "A+B+C-0.0001", 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.mapcalculator", 
+                    "description": "Calc. Total LCOE PV ongrid"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSV.TO.RAST.VALUE_2": {
+                "values": {
+                    "name": "GRASSV.TO.RAST.VALUE_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 393.04007396839245, 
+                            "x": 401.78128503423085
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "use": 0, 
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "value": 1.0, 
+                        "input": {
+                            "values": {
+                                "alg": "GRASSV.EXTRACT_2", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:v.to.rast.value", 
+                    "description": "Rasterize exist. lines 1km"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.MAPCALCULATOR_8": {
+                "values": {
+                    "name": "GRASSR.MAPCALCULATOR_8", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 656.3015739683922, 
+                            "x": 402.6472491466525
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "fmap": null, 
+                        "emap": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "dmap": null, 
+                        "cmap": null, 
+                        "bmap": {
+                            "values": {
+                                "alg": "GRASSR.MAPCALCULATOR_4", 
+                                "output": "outfile"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "amap": {
+                            "values": {
+                                "alg": "GRASSR.MAPCALCULATOR_7", 
+                                "output": "outfile"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "formula": "(A*(883.93*0.110168072+0)+(63392.86*0.110168072))/(B*8760)", 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.mapcalculator", 
+                    "description": "Calc. LCOEint PV ongrid"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISREPROJECTLAYER_1": {
+                "values": {
+                    "name": "QGISREPROJECTLAYER_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 241.21816365589214, 
+                            "x": 663.7052579280978
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "name": "roads"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TARGET_CRS": "EPSG:102022"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:reprojectlayer", 
+                    "description": "Reproject Roads"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISREPROJECTLAYER_2": {
+                "values": {
+                    "name": "QGISREPROJECTLAYER_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 240.2046333433924, 
+                            "x": 401.16075605309766
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "name": "transmissionlines"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TARGET_CRS": "EPSG:102022"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:reprojectlayer", 
+                    "description": "Reproject Transm. Lines"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSV.EXTRACT_1": {
+                "values": {
+                    "name": "GRASSV.EXTRACT_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 311.9226638371032, 
+                            "x": 661.3510394905979
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "-d": false, 
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "GRASS_OUTPUT_TYPE_PARAMETER": 0, 
+                        "input": {
+                            "values": {
+                                "alg": "QGISREPROJECTLAYER_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": null, 
+                        "where": "FCLASS<6"
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:v.extract", 
+                    "description": "Unselect trails"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRPROXIMITY_2": {
+                "values": {
+                    "name": "GDALOGRPROXIMITY_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 476.70890441218154, 
+                            "x": 398.68336547801994
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "RTYPE": 3, 
+                        "MAX_DIST": -1.0, 
+                        "BUF_VAL": -1.0, 
+                        "VALUES": "1", 
+                        "UNITS": 0, 
+                        "INPUT": {
+                            "values": {
+                                "alg": "GRASSV.TO.RAST.VALUE_2", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "NODATA": -1.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:proximity", 
+                    "description": "Distance from exist. lines"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.RESAMP.INTERP_1": {
+                "values": {
+                    "name": "GRASSR.RESAMP.INTERP_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 311.03327591315224, 
+                            "x": 128.89259219994835
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "input": {
+                            "values": {
+                                "alg": "GDALOGRWARPREPROJECT_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "-a_r.region": false, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "method": 0
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.resamp.interp", 
+                    "description": "Resample GHI 1 km"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRPROXIMITY_1": {
+                "values": {
+                    "name": "GDALOGRPROXIMITY_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 475.0868189184703, 
+                            "x": 665.1378755279414
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "RTYPE": 3, 
+                        "MAX_DIST": -1.0, 
+                        "UNITS": 0, 
+                        "VALUES": "1", 
+                        "BUF_VAL": -1.0, 
+                        "INPUT": {
+                            "values": {
+                                "alg": "GRASSV.TO.RAST.VALUE_1", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "NODATA": -1.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:proximity", 
+                    "description": "Distance from Roads"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSV.EXTRACT_2": {
+                "values": {
+                    "name": "GRASSV.EXTRACT_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 309.69562178089234, 
+                            "x": 398.61659949059776
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "-d": false, 
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "GRASS_OUTPUT_TYPE_PARAMETER": 0, 
+                        "input": {
+                            "values": {
+                                "alg": "QGISREPROJECTLAYER_2", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": null, 
+                        "where": "\"Voltage\"  > 50 AND  \"Situation\"  = 'Existing'"
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:v.extract", 
+                    "description": "Select existing lines kV>50"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SAGAGRIDMASKING_1": {
+                "values": {
+                    "name": "SAGAGRIDMASKING_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 841.2482435246034, 
+                            "x": 402.13787552794156
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "GRID": {
+                            "values": {
+                                "alg": "GRASSR.MAPCALCULATOR_9", 
+                                "output": "outfile"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "MASK": {
+                            "values": {
+                                "name": "exclusionareasmask"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "saga:gridmasking", 
+                    "description": "Apply Exclusion Mask PV"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "MODELERTOOLSRASTERLAYERBOUNDS_1": {
+                "values": {
+                    "name": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 55.6871288556399, 
+                            "x": 422.96580667809786
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "LAYER": {
+                            "values": {
+                                "name": "referencegrid1km"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "modelertools:rasterlayerbounds", 
+                    "description": "Raster layer bounds"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

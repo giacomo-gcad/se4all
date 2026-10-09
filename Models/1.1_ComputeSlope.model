@@ -1,0 +1,2780 @@
+{
+    "values": {
+        "inputs": {
+            "srtmtile13": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 421.3791244218752, 
+                            "x": 114.64541142187497
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile13", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 13"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile12": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 305.30131631250003, 
+                            "x": 833.8610132656254
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile12", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 12"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile11": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 299.23971721875006, 
+                            "x": 597.5560053125001
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile11", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 11"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile10": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 302.68493910937514, 
+                            "x": 360.42436765624996
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile10", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 10"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile17": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 537.8870700000002, 
+                            "x": 116.78281889062526
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile17", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 17"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile16": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 424.52042875000006, 
+                            "x": 829.7558870156251
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile16", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 16"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile15": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 425.46322542187517, 
+                            "x": 598.2074702031251
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile15", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 15"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile14": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 423.6756929062501, 
+                            "x": 359.5210544375001
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile14", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 14"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile31": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 870.6325178125, 
+                            "x": 586.9930713906252
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile31", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 31"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile30": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 869.1550623687111, 
+                            "x": 352.76774834699256
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile30", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 30"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile19": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 541.4396331250001, 
+                            "x": 595.2033238906255
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile19", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 19"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile18": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 542.439633125, 
+                            "x": 356.99307139062535
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile18", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 18"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile9": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 301.4086575468751, 
+                            "x": 114.4849105624998
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile9", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 9"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile8": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 162.35778131250004, 
+                            "x": 839.9542920625001
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile8", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 8"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile3": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 35.68683623437498, 
+                            "x": 601.351522625
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile3", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 3"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile2": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 39.515680921874996, 
+                            "x": 364.44079192187496
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile2", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 2"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile1": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 35.559208078124996, 
+                            "x": 114.76724559374996
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile1", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 1"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile7": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 162.57024879687503, 
+                            "x": 602.4165297031252
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile7", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 7"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile6": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 162.23015315625003, 
+                            "x": 366.4538323750001
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile6", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 6"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile5": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 163.37880656250007, 
+                            "x": 114.26059562499998
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile5", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 5"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile4": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 31.921805624999998, 
+                            "x": 838.389881484375
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile4", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 4"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "ecowasbnd": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 1138.9008312546634, 
+                            "x": 122.61939425431302
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "ecowasbnd", 
+                            "shapetype": [
+                                2
+                            ], 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Ecowas_bnd"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile33": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 995.8697611316801, 
+                            "x": 122.16422670312532
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile33", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 33"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile32": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 871.9087993750002, 
+                            "x": 824.8691263440284
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile32", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 32"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile28": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 758.4761290625, 
+                            "x": 829.2033238906254
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile28", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 28"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile29": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 867.0799546875002, 
+                            "x": 118.05910045312532
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile29", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 29"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile22": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 661.5299928125, 
+                            "x": 354.71678982812534
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile22", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 22"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile23": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 663.3588375, 
+                            "x": 592.650760765625
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile23", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 23"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile20": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 540.6107884375001, 
+                            "x": 828.2033238906253
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile20", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 20"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile21": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 660.806274375, 
+                            "x": 114.50653732812532
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile21", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 21"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile26": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 762.7524106250003, 
+                            "x": 352.4405082656253
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile26", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 26"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile27": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 760.7524106250002, 
+                            "x": 590.0981976406252
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile27", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 27"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile24": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 664.3588374999998, 
+                            "x": 829.4796054531251
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile24", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 24"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "srtmtile25": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 763.3049737500002, 
+                            "x": 116.78281889062532
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "srtmtile25", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "srtm tile 25"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {
+            "ALG_DESC": "1, Reprojects in Albers Equal Area Conic Projection and mosaic 33 SRTM 90m tiles for ECOWA region.\n2. Computes the Slope layer in %", 
+            "ALG_CREATOR": "Giacomo Delli \nSE4ALL EU-TAF expert \nThe EU 's Technical Assistance Facility (TAF) \nfor the Sustainable Energy for All (SE4ALL) initiative Central and Western Africa", 
+            "ecowasbnd": "Administrative boundaries of ECOWAS countries, level 0.\nFile: ECOWAS_admin.shp", 
+            "ALG_VERSION": "1.0", 
+            "ALG_HELP_CREATOR": "Giacomo Delli \nSE4ALL EU-TAF expert \nThe EU 's Technical Assistance Facility (TAF) \nfor the Sustainable Energy for All (SE4ALL) initiative Central and Western Africa", 
+            "slope_ALGGRASSR.SLOPE_1": "Slope layer in %, resolution 90m, for ECOWAS region", 
+            "OUTPUT_ALGSAGACLIPGRIDWITHPOLYGON_1": "Elevation layer for ECOWAS region"
+        }, 
+        "group": "1. ExclusionAreas", 
+        "name": "1.1 ComputeSlope", 
+        "algs": {
+            "GDALOGRWARPREPROJECT_28": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_28", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 714.9813707933592, 
+                            "x": 596.4256650293037
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile23"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_29": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_29", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 605.6496679529683, 
+                            "x": 829.8636251479759
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile20"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_20": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_20", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 233.3329030866558, 
+                            "x": 365.084319720243
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile6"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_21": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_21", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 228.74886645105403, 
+                            "x": 117.54634139773134
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile5"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_22": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_22", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 100.39584065419609, 
+                            "x": 841.8241298228586
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile4"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_23": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_23", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1062.7964048749982, 
+                            "x": 121.4337269546573
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile33"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_24": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_24", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 941.5665632871753, 
+                            "x": 821.1622064537498
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile32"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_25": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_25", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 817.7975741259197, 
+                            "x": 830.3302797249542
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile28"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_26": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_26", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 938.0771428055075, 
+                            "x": 126.59483390438146
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile29"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_27": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_27", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 716.4588262371481, 
+                            "x": 357.07788313547576
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile22"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_15": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_15", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 233.33290308665596, 
+                            "x": 839.5321115050574
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile8"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_14": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_14", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 366.2699655191159, 
+                            "x": 117.54634139773134
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile9"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_17": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_17", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 102.68785897199692, 
+                            "x": 360.50028308464096
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile2"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_16": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_16", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 98.10382233639496, 
+                            "x": 601.1622064537496
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile3"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_11": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_11", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 939.2745449693743, 
+                            "x": 353.62422813123794
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile30"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_10": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_10", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 939.2745449693748, 
+                            "x": 587.4100965469434
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile31"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_13": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_13", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 602.3478522526227, 
+                            "x": 355.9162464490389
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile18"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_12": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_12", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 602.3478522526225, 
+                            "x": 594.2861515003465
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile19"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRMERGE_1": {
+                "values": {
+                    "name": "GDALOGRMERGE_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1082.5202919375001, 
+                            "x": 500.35447593749996
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": [
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_28", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_29", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_20", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_21", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_22", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_23", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_24", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_25", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_26", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_27", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_15", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_14", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_17", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_16", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_11", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_10", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_13", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_12", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_19", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_18", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_3", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_2", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_5", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_4", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_7", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_6", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_9", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_8", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_33", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_32", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_31", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_30", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GDALOGRWARPREPROJECT_34", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }
+                        ], 
+                        "SEPARATE": false, 
+                        "PCT": false, 
+                        "RTYPE": 1
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:merge", 
+                    "description": "Mosaic srtm tiles "
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_19": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_19", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 233.3329030866561, 
+                            "x": 608.038261407153
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile7"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_18": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_18", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 102.68785897199683, 
+                            "x": 124.42239635113447
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile1"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISREPROJECTLAYER_1": {
+                "values": {
+                    "name": "QGISREPROJECTLAYER_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1202.5112836904236, 
+                            "x": 224.2618988901936
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "name": "ecowasbnd"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TARGET_CRS": "EPSG:102022"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:reprojectlayer", 
+                    "description": "Reproject bnd in Albers"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_3": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 368.5619838369171, 
+                            "x": 839.5658700139566
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile12"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_2": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 479.1708032499996, 
+                            "x": 117.60582535937488
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile13"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_5": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_5", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 369.5619838369171, 
+                            "x": 365.08431972024323
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile10"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_4": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_4", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 370.85400215471805, 
+                            "x": 605.7462430893518
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile11"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_7": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_7", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 483.1628997269688, 
+                            "x": 832.656056551654
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile16"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_6": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_6", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 597.7638156170206, 
+                            "x": 115.25432307993037
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile17"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_9": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_9", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 483.1628997269688, 
+                            "x": 362.79230140244204
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile14"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_8": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_8", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 485.45491804476956, 
+                            "x": 596.5781698181474
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile15"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SAGACLIPGRIDWITHPOLYGON_1": {
+                "values": {
+                    "name": "SAGACLIPGRIDWITHPOLYGON_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT": {
+                            "values": {
+                                "description": "srtm_wa_final", 
+                                "pos": {
+                                    "values": {
+                                        "y": 1299.6154678593753, 
+                                        "x": 795.3968785
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 1229.6154678593753, 
+                            "x": 623.3968785
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "alg": "GDALOGRMERGE_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "POLYGONS": {
+                            "values": {
+                                "alg": "QGISREPROJECTLAYER_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "saga:clipgridwithpolygon", 
+                    "description": "Clip raster with polygon"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.SLOPE_1": {
+                "values": {
+                    "name": "GRASSR.SLOPE_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "slope": {
+                            "values": {
+                                "description": "Slope_wa", 
+                                "pos": {
+                                    "values": {
+                                        "y": 1401.93453825, 
+                                        "x": 794.120983203125
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 1350.93453825, 
+                            "x": 580.120983203125
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "elevation": {
+                            "values": {
+                                "alg": "SAGACLIPGRIDWITHPOLYGON_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "format": 1, 
+                        "prec": 2, 
+                        "min_slp_allowed": 0.0, 
+                        "zfactor": 1.0, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 0.0, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSVECTORLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "-a": true
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.slope", 
+                    "description": "Compute Slope"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_33": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_33", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 714.9813707933592, 
+                            "x": 831.3410805917647
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile24"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_32": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_32", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 819.8807073023825, 
+                            "x": 596.4256650293037
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile27"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_31": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_31", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 816.9257964148046, 
+                            "x": 352.6455168041084
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile26"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_30": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_30", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 714.981370793359, 
+                            "x": 116.25264579785812
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile21"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "MODELERTOOLSVECTORLAYERBOUNDS_1": {
+                "values": {
+                    "name": "MODELERTOOLSVECTORLAYERBOUNDS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1275.2204180781255, 
+                            "x": 374.3894952187502
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "LAYER": {
+                            "values": {
+                                "alg": "QGISREPROJECTLAYER_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "modelertools:vectorlayerbounds", 
+                    "description": "Vector layer bounds"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_34": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_34", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 816.9257964148044, 
+                            "x": 119.2075566854362
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:4326", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 1, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": null, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "srtmtile25"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 1, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Warp (reproject)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

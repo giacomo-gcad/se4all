@@ -1,0 +1,790 @@
+{
+    "values": {
+        "inputs": {
+            "exclusionareascsp": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 499.3613875, 
+                            "x": 978.7045669853057
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "exclusionareascsp", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "ExclusionAreas CSP"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "dni": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 151.78449375, 
+                            "x": 812.4194357353061
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "dni", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "DNI Ecowas"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "exclusionareaspvongrid": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 501.8699312499998, 
+                            "x": 130.6558544853059
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "exclusionareaspvongrid", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "ExclusionAreas PV-ongrid"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "referencegrid1km": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 30.073813108177063, 
+                            "x": 314.06595448530595
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "referencegrid1km", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "ReferenceGrid 1km"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "exclusionareaspvoffgrid": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 503.6597812500002, 
+                            "x": 486.4179044853054
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "exclusionareaspvoffgrid", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "ExclusionAreas PV-offgrid"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "ghi": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 143.06044375000002, 
+                            "x": 359.1616937500001
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "ghi", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "GHI Ecowas"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {
+            "ALG_DESC": "This model computes the Technical Potential for PV (on-grid and off-gri) and CSP systems in ECOWAS region.\n\nTechnical potential is expressed in GWh/year/km2.\nIt is obtained through a linear transformation of GHI, using the following equation:\n\nTP (GWh/year/km2 ) = CSP * Module Efficiency * Performance Ratio / Land Occupancy Factor \n\nwhere \nModule Efficiency = 15%\nPerformnace Ratio = 85%\nLand Occupancy Factor = 3.5", 
+            "exclusionareascsp": "Exclusion Areas for CSP systems.\nRaster File, output from Module 1.3", 
+            "ALG_HELP_CREATOR": "Giacomo Delli \nSE4ALL EU-TAF expert \nThe EU 's Technical Assistance Facility (TAF) \nfor the Sustainable Energy for All (SE4ALL) initiative Central and Western Africa", 
+            "roads": "Road network, as provided by WAPP.\nFile: groads_ecowas.shp. \nThe field FCLASS is used for unselecting Trails\n", 
+            "rclrulesroads": "File: ClassificationRules\\GeogrPotential\\ReclassDistanceRoads_PV-ongrid.txt", 
+            "rclrulesecowpop": "File: ClassificationRules\\GeogrPotential\\ReclassPopulationDensity_PV-ongrid.txt", 
+            "rclrulesghi": "File: ClassificationRules\\GeogrPotential\\ReclassGHI.txt", 
+            "ecowpop": "Population Density, as provided by ECREEE \nFile: ecreee_ecowpop.tif", 
+            "dni": "Direct Normal Irradiance in kWh/m2/year\nFile: ghi_ecowas.tif, output from module 2.1", 
+            "MASKED_ALGSAGAGRIDMASKING_2": "Geographical Potential for PV on-grid systems, based on the presently existing transmission lines + planned lines up to 2020\n\nEquation: \u01a9 (FactorClass * FactorWeight)\n\nWeights are those used by the Univerisity of Geneva. They can be computed with the Spreadsheet AHP_GeogrPot.xlsx, using a simplified version of the Analytical Hierarchy Process.\n", 
+            "MASKED_ALGSAGAGRIDMASKING_3": "Geographical Potential for PV on-grid systems, based on the presently existing transmission lines + planned lines up to 2030\n\nEquation: \u01a9 (FactorClass * FactorWeight)\n\nWeights are those used by the Univerisity of Geneva. They can be computed with the Spreadsheet AHP_GeogrPot.xlsx, using a simplified version of the Analytical Hierarchy Process.\n", 
+            "rcldistsettlements": "File: ClassificationRules\\GeogrPotential\\ReclassDistanceSettlements.txt", 
+            "MASKED_ALGSAGAGRIDMASKING_1": "Geographical Potential for PV on-grid systems, based on the presently existing transmission lines.\n\nEquation: \u01a9 (FactorClass * FactorWeight)\n\nWeights are those used by the Univerisity of Geneva. They can be computed with the Spreadsheet AHP_GeogrPot.xlsx, using a simplified version of the Analytical Hierarchy Process.\n", 
+            "rcllandcoverurban": "File: ClassificationRules\\GeogrPotential\\ReclassLandCover_Urban.txt", 
+            "exclusionmaskpvongrid": "Exclusion Areas for PV on-grid systems.\nRaster File, output from Module 1.2 ", 
+            "ALG_VERSION": "1.0", 
+            "landcover": "Land Cover layer, as downloaded from https://www.iscgm.org/gmd/ \nFile: gm_lc_v3.tif", 
+            "rcldistancegridlines": "File: ClassificationRules\\GeogrPotential\\ReclassDistanceGridLines_PV-ongrid.txt", 
+            "OUTPUT_ALGGDALOGRTRANSLATE_1": "Technical Potential for PV on-grid systems, computed with the equation:\n\nTP (GWh/year/km2 ) = CSP * Module Efficiency * Performance Ratio / Land Occupancy Factor \n\nwhere \nModule Efficiency = 15%\nPerformnace Ratio = 85%\nLand Occupancy Factor = 3.5", 
+            "OUTPUT_ALGGDALOGRTRANSLATE_3": "Technical Potential for PV off-grid systems, computed with the equation:\n\nTP (GWh/year/km2 ) = CSP * Module Efficiency * Performance Ratio / Land Occupancy Factor \n\nwhere \nModule Efficiency = 15%\nPerformnace Ratio = 85%\nLand Occupancy Factor = 3.5", 
+            "OUTPUT_ALGGDALOGRTRANSLATE_2": "Technical Potential for CSP systems, computed with the equation:\n\nTP (GWh/year/km2 ) = CSP * Module Efficiency * Performance Ratio / Land Occupancy Factor \n\nwhere \nModule Efficiency = 15%\nPerformnace Ratio = 100%\nLand Occupancy Factor = 6", 
+            "ALG_CREATOR": "Giacomo Delli \nSE4ALL EU-TAF expert \nThe EU 's Technical Assistance Facility (TAF) \nfor the Sustainable Energy for All (SE4ALL) initiative Central and Western Africa", 
+            "transmissionlines": "TransmissionLines.shp, lines, as provided by WAPP.\nThe fields Voltage, Situation and Year are used to select relevant grid lines for present situation, for Year 2020 and for Year 2030.\n", 
+            "exclusionareaspvongrid": "Exclusion Areas for PV on-grid systems.\nRaster File, output from Module 1.2 ", 
+            "referencegrid1km": "Reference Grid for all layers, resolution: 1 km\nRaster File: ReferenceGrid1000.tif\n", 
+            "wdpawa": "WDPA_July2016_wa.shp. \nSource file (WDPA_July2016-shapefile.zip) was downloaded from http://www.protectedplanet.net/ , then clipped in ArcGIS on the boundaries of Ecowas region", 
+            "ghi": "Global Horizontal Irradiance in kWh/m2/day\nFile: ghi_ecowas.tif, output from module 2.1"
+        }, 
+        "group": "3. Technical Potential", 
+        "name": "3.1 TechnicalPotential", 
+        "algs": {
+            "GDALOGRWARPREPROJECT_1": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 223.03576662576393, 
+                            "x": 357.7915693949539
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [
+                        "MODELERTOOLSRASTERLAYERBOUNDS_1"
+                    ], 
+                    "params": {
+                        "EXT_CRS": "EPSG:102022", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 1000.0, 
+                        "RTYPE": 5, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "ghi"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 0, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Reproject GHI"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_2": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 237.0559217808924, 
+                            "x": 806.5624404280977
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:102022", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 5, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": "-32768", 
+                        "TILED": false, 
+                        "RAST_EXT": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "dni"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 0, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Reproject DNI"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.MAPCALCULATOR_3": {
+                "values": {
+                    "name": "GRASSR.MAPCALCULATOR_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 412.33187178089236, 
+                            "x": 807.346934178098
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "fmap": null, 
+                        "emap": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "dmap": null, 
+                        "cmap": null, 
+                        "bmap": null, 
+                        "amap": {
+                            "values": {
+                                "alg": "GRASSR.RESAMP.INTERP_2", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "formula": "A*0.15/6", 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.mapcalculator", 
+                    "description": "Comp. Tech. Pot. CSP"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.MAPCALCULATOR_1": {
+                "values": {
+                    "name": "GRASSR.MAPCALCULATOR_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 401.8233280308924, 
+                            "x": 348.69123417809783
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "fmap": null, 
+                        "emap": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "dmap": null, 
+                        "cmap": null, 
+                        "bmap": null, 
+                        "amap": {
+                            "values": {
+                                "alg": "GRASSR.RESAMP.INTERP_1", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "formula": "(A*365)*0.155*0.85/3.5", 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.mapcalculator", 
+                    "description": "Comp. Tech. Pot. PV"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRTRANSLATE_1": {
+                "values": {
+                    "name": "GDALOGRTRANSLATE_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT": {
+                            "values": {
+                                "description": "TechnicalPotential_PVongrid", 
+                                "pos": {
+                                    "values": {
+                                        "y": 721.1242717808922, 
+                                        "x": 190.73841542809788
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 644.5211092808922, 
+                            "x": 128.09062167809785
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "ZLEVEL": 6.0, 
+                        "PROJWIN": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "SDS": false, 
+                        "BIGTIFF": 0, 
+                        "OUTSIZE_PERC": true, 
+                        "RTYPE": 5, 
+                        "COMPRESS": 4, 
+                        "SRS": "", 
+                        "NO_DATA": null, 
+                        "OUTSIZE": 100.0, 
+                        "TILED": false, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "alg": "SAGAGRIDMASKING_1", 
+                                "output": "MASKED"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "TFW": false, 
+                        "PREDICTOR": 1.0, 
+                        "EXPAND": 0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:translate", 
+                    "description": "Compress TP PV ongrid"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "MODELERTOOLSRASTERLAYERBOUNDS_1": {
+                "values": {
+                    "name": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 42.913474168139885, 
+                            "x": 576.364021678098
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "LAYER": {
+                            "values": {
+                                "name": "referencegrid1km"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "modelertools:rasterlayerbounds", 
+                    "description": "Raster layer bounds"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SAGAGRIDMASKING_1": {
+                "values": {
+                    "name": "SAGAGRIDMASKING_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 569.8141467808921, 
+                            "x": 130.0130904280978
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "GRID": {
+                            "values": {
+                                "alg": "GRASSR.MAPCALCULATOR_1", 
+                                "output": "outfile"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "MASK": {
+                            "values": {
+                                "name": "exclusionareaspvongrid"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "saga:gridmasking", 
+                    "description": "Apply Excl. Mask PV ongrid"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SAGAGRIDMASKING_2": {
+                "values": {
+                    "name": "SAGAGRIDMASKING_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 576.8312342808924, 
+                            "x": 811.5808029280979
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "GRID": {
+                            "values": {
+                                "alg": "GRASSR.MAPCALCULATOR_3", 
+                                "output": "outfile"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "MASK": {
+                            "values": {
+                                "name": "exclusionareascsp"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "saga:gridmasking", 
+                    "description": "Apply Exclusion Mask CSP"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SAGAGRIDMASKING_3": {
+                "values": {
+                    "name": "SAGAGRIDMASKING_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 575.5657405308923, 
+                            "x": 483.38748417809785
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "GRID": {
+                            "values": {
+                                "alg": "GRASSR.MAPCALCULATOR_1", 
+                                "output": "outfile"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "MASK": {
+                            "values": {
+                                "name": "exclusionareaspvoffgrid"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "saga:gridmasking", 
+                    "description": "Apply Excl. Mask PV off grid"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.RESAMP.INTERP_1": {
+                "values": {
+                    "name": "GRASSR.RESAMP.INTERP_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 315.81517591315225, 
+                            "x": 360.3013109499484
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "input": {
+                            "values": {
+                                "alg": "GDALOGRWARPREPROJECT_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "-a_r.region": false, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "method": 0
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.resamp.interp", 
+                    "description": "Resample GHI 1 km"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRTRANSLATE_3": {
+                "values": {
+                    "name": "GDALOGRTRANSLATE_3", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT": {
+                            "values": {
+                                "description": "TechnicalPotential_PVoffgrid", 
+                                "pos": {
+                                    "values": {
+                                        "y": 720.2372530308924, 
+                                        "x": 549.681796678098
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 647.2806092808921, 
+                            "x": 483.3874841780978
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "ZLEVEL": 6.0, 
+                        "PROJWIN": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "SDS": false, 
+                        "BIGTIFF": 0, 
+                        "OUTSIZE_PERC": true, 
+                        "RTYPE": 5, 
+                        "COMPRESS": 4, 
+                        "SRS": "", 
+                        "NO_DATA": null, 
+                        "OUTSIZE": 100.0, 
+                        "TILED": false, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "alg": "SAGAGRIDMASKING_3", 
+                                "output": "MASKED"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "TFW": false, 
+                        "PREDICTOR": 1.0, 
+                        "EXPAND": 0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:translate", 
+                    "description": "Compress TP PV offgrid"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.RESAMP.INTERP_2": {
+                "values": {
+                    "name": "GRASSR.RESAMP.INTERP_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 325.1938967808924, 
+                            "x": 807.7779466780978
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "input": {
+                            "values": {
+                                "alg": "GDALOGRWARPREPROJECT_2", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "-a_r.region": false, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "method": 0
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.resamp.interp", 
+                    "description": "Resample DNI 1 km"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRTRANSLATE_2": {
+                "values": {
+                    "name": "GDALOGRTRANSLATE_2", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT": {
+                            "values": {
+                                "description": "TechnicalPotential_CSP", 
+                                "pos": {
+                                    "values": {
+                                        "y": 718.7970592808922, 
+                                        "x": 906.6057966780977
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 650.3831342808924, 
+                            "x": 810.3652966780979
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "ZLEVEL": 6.0, 
+                        "PROJWIN": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "SDS": false, 
+                        "BIGTIFF": 0, 
+                        "OUTSIZE_PERC": true, 
+                        "RTYPE": 5, 
+                        "COMPRESS": 4, 
+                        "SRS": "", 
+                        "NO_DATA": null, 
+                        "OUTSIZE": 100.0, 
+                        "TILED": false, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "alg": "SAGAGRIDMASKING_2", 
+                                "output": "MASKED"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "TFW": false, 
+                        "PREDICTOR": 1.0, 
+                        "EXPAND": 0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:translate", 
+                    "description": "Compress TechPot CSP"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

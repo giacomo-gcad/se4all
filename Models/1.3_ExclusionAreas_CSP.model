@@ -1,0 +1,1399 @@
+{
+    "values": {
+        "inputs": {
+            "slope": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 256.3016001322961, 
+                            "x": 132.40118323374537
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "slope", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Slope 90m"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "slopereclassrules": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 568.344490302914, 
+                            "x": 182.24436650489585
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "slopereclassrules", 
+                            "default": null, 
+                            "isFolder": false, 
+                            "value": null, 
+                            "ext": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "SLOPE Reclass Rules CSP"
+                        }, 
+                        "class": "processing.core.parameters.ParameterFile"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "glwd3": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 256.0929692160912, 
+                            "x": 417.7869031621235
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "glwd3", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "GLWD 3"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "fllodzonesreclassrules": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 662.5183188498113, 
+                            "x": 1944.9657391444307
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "fllodzonesreclassrules", 
+                            "default": null, 
+                            "isFolder": false, 
+                            "value": null, 
+                            "ext": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "FloodZones Reclass Rules"
+                        }, 
+                        "class": "processing.core.parameters.ParameterFile"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "referencegrid1000": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 49.23239031037146, 
+                            "x": 746.2186382818918
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "referencegrid1000", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "ReferenceGrid1000"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "landcoverreclassrules": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 666.6135301786682, 
+                            "x": 1653.6930595150748
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "landcoverreclassrules", 
+                            "default": null, 
+                            "isFolder": false, 
+                            "value": null, 
+                            "ext": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "LandCover Rcl Rules CSP"
+                        }, 
+                        "class": "processing.core.parameters.ParameterFile"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "railways": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 260.1413894309416, 
+                            "x": 1287.9709854579467
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "railways", 
+                            "shapetype": [
+                                1
+                            ], 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Railways"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "rivers": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 258.53198679820207, 
+                            "x": 717.6223974318252
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "rivers", 
+                            "shapetype": [
+                                -1
+                            ], 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Rivers"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "floodzones": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 260.24335892010737, 
+                            "x": 1882.159409619147
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "floodzones", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "FloodZones"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "landcover": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 261.1413894309415, 
+                            "x": 1573.5637944440746
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "landcover", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "LandCover"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "wbreclassrules": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 512.670201098488, 
+                            "x": 538.0163319924217
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "wbreclassrules", 
+                            "default": null, 
+                            "isFolder": false, 
+                            "value": null, 
+                            "ext": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "WB Reclass Rules"
+                        }, 
+                        "class": "processing.core.parameters.ParameterFile"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "wdpa": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 260.390115270151, 
+                            "x": 1001.9190882149876
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "wdpa", 
+                            "shapetype": [
+                                2
+                            ], 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "WDPA ECOWAS"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {
+            "slope": "Slope in % for ECOWAS region, output from module 1.1. \nFile: slope_wa.tif", 
+            "ALG_DESC": "Computes Exclusion Areas fo CSP technology", 
+            "ecpwpop": "Population Density, as provided by ECREEE \nFile: ecreee_ecowpop.tif", 
+            "elevation": "Elevation in m. for ECOWAS region, output from module 1.1 \nFile: srtm_wa.itf", 
+            "glwd3": "Water bodies, as downloaded from http://www.worldwildlife.org/pages/global-lakes-and-wetlands-database \nFile: glwd_3 (ESRI grid)", 
+            "fllodzonesreclassrules": "File: ClassificationRules\\1_ExclusionAreas\\ReclassFloodZones.txt", 
+            "referencegrid1000": "Reference Grid for all layers, resolution: 1 km \nRaster File: ReferenceGrid1000.tif", 
+            "landcoverreclassrules": "File: ClassificationRules\\1_ExclusionAreas\\ReclassLandCover_CSP.txt", 
+            "railways": "Railway network, as provided by ECREEE \nVector file: spat_rail.shp", 
+            "slopereclassrules": "File: ClassificationRules\\1_ExclusionAreas\\ReclassSlope_CSP.txt", 
+            "elevationreclassrules": "File: ClassificationRules\\ExclusionAreas\\ReclassElevation.txt", 
+            "rivers": "Rivers, as downloaded from http://www.naturalearthdata.com/downloads/10m-physical-vectors/ \nVector file: ne_10m_rivers_lake_centerlines.shp ", 
+            "ALG_CREATOR": "Giacomo Delli \nSE4ALL EU-TAF expert \nThe EU 's Technical Assistance Facility (TAF) \nfor the Sustainable Energy for All (SE4ALL) initiative Central and Western Africa", 
+            "floodzones": "Flood zones (frequency), as downloaded from http://preview.grid.unep.ch/index.php?preview=data&events=floods&evcat=2 \nFile: fl_frequency. tif", 
+            "ALG_VERSION": "2.0", 
+            "ALG_HELP_CREATOR": "Giacomo Delli \nSE4ALL EU-TAF expert \nThe EU 's Technical Assistance Facility (TAF) \nfor the Sustainable Energy for All (SE4ALL) initiative Central and Western Africa", 
+            "landcover": "Land Cover layer, as downloaded from https://www.iscgm.org/gmd/ \nFile: gm_lc_v3.tif", 
+            "output_ALGGRASSR.CROSS_1": "Exclusion Areas Layer mask for CSP systems.\nValues:\n0 = Exscluded\n1 = Included\n\nLayer computed multiplying each input layer", 
+            "wbreclassrules": "File: ClassificationRules\\1_ExclusionAreas\\ReclassWaterBodies.txt", 
+            "wdpa": "WDPA_July2016_wa.shp. \nSource file (WDPA_July2016-shapefile.zip) was downloaded from http://www.protectedplanet.net/ , then clipped on the boundaries of Ecowas region", 
+            "ecowpopreclassrules": "File: ClassificationRules\\ExclusionAreas\\ReclassPopulationDensity.txt"
+        }, 
+        "group": "1. ExclusionAreas", 
+        "name": "1.3 ExclusionAreas_CSP", 
+        "algs": {
+            "GRASSR.RESAMP.STATS_5": {
+                "values": {
+                    "name": "GRASSR.RESAMP.STATS_5", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 457.9887828858703, 
+                            "x": 1878.5814975983712
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "-a_r.region": false, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "-n": false, 
+                        "-w": false, 
+                        "input": {
+                            "values": {
+                                "alg": "GDALOGRWARPREPROJECT_4", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "method": 4
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.resamp.stats", 
+                    "description": "Resample Flood Z. to 1 Km"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.RESAMP.STATS_1": {
+                "values": {
+                    "name": "GRASSR.RESAMP.STATS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 761.1272916918747, 
+                            "x": 125.92958011260237
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "-a_r.region": false, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "-n": false, 
+                        "-w": false, 
+                        "input": {
+                            "values": {
+                                "alg": "GRASSR.RECLASS_2", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "method": 6
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.resamp.stats", 
+                    "description": "Resample Slope to 1 km"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.RESAMP.STATS_3": {
+                "values": {
+                    "name": "GRASSR.RESAMP.STATS_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 455.7433631373895, 
+                            "x": 1576.532490615979
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "-a_r.region": false, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "-n": false, 
+                        "-w": true, 
+                        "input": {
+                            "values": {
+                                "alg": "GDALOGRWARPREPROJECT_3", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "method": 2
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.resamp.stats", 
+                    "description": "Resample LandCover to 1 km"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.RESAMP.STATS_2": {
+                "values": {
+                    "name": "GRASSR.RESAMP.STATS_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 450.08333384217457, 
+                            "x": 416.7592834777133
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "-a_r.region": false, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "-n": false, 
+                        "-w": false, 
+                        "input": {
+                            "values": {
+                                "alg": "GDALOGRWARPREPROJECT_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "method": 2
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.resamp.stats", 
+                    "description": "Resample WB to 1km"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.CROSS_1": {
+                "values": {
+                    "name": "GRASSR.CROSS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "output": {
+                            "values": {
+                                "description": "ExclusionAreas_CSP", 
+                                "pos": {
+                                    "values": {
+                                        "y": 970.1323214410453, 
+                                        "x": 1160.8395790703987
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 898.2006701316576, 
+                            "x": 1018.2387230616042
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "input": [
+                            {
+                                "values": {
+                                    "alg": "GRASSR.RESAMP.STATS_1", 
+                                    "output": "output"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GRASSR.RECLASS_6", 
+                                    "output": "output"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GRASSR.RECLASS_4", 
+                                    "output": "output"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "SAGAINVERTDATANODATA_4", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "SAGAINVERTDATANODATA_2", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "SAGAINVERTDATANODATA_3", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "SAGAINVERTDATANODATA_1", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }
+                        ], 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "-z": true
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.cross", 
+                    "description": "Cross Excl. Ar. CSP"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "MODELERTOOLSRASTERLAYERBOUNDS_1": {
+                "values": {
+                    "name": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 130.4281413426441, 
+                            "x": 998.5834642372192
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "LAYER": {
+                            "values": {
+                                "name": "referencegrid1000"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "modelertools:rasterlayerbounds", 
+                    "description": "Raster layer bounds"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSV.TO.RAST.VALUE_1": {
+                "values": {
+                    "name": "GRASSV.TO.RAST.VALUE_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 676.2793225871486, 
+                            "x": 711.9984011674223
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "use": 0, 
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "value": 1.0, 
+                        "input": {
+                            "values": {
+                                "alg": "QGISFIXEDDISTANCEBUFFER_2", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:v.to.rast.value", 
+                    "description": "Rasterize Rivers to 1 km"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSV.TO.RAST.VALUE_3": {
+                "values": {
+                    "name": "GRASSV.TO.RAST.VALUE_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 553.3919788674671, 
+                            "x": 1294.5514985648467
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "use": 0, 
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "value": 1.0, 
+                        "input": {
+                            "values": {
+                                "alg": "QGISFIXEDDISTANCEBUFFER_3", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:v.to.rast.value", 
+                    "description": "Rasterize Railways"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSV.TO.RAST.VALUE_2": {
+                "values": {
+                    "name": "GRASSV.TO.RAST.VALUE_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 542.9975617688924, 
+                            "x": 1004.2126185670024
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "use": 0, 
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "value": 1.0, 
+                        "input": {
+                            "values": {
+                                "alg": "QGISFIXEDDISTANCEBUFFER_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:v.to.rast.value", 
+                    "description": "Rasterize WDPA to 1 km"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISREPROJECTLAYER_1": {
+                "values": {
+                    "name": "QGISREPROJECTLAYER_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 352.02345035904125, 
+                            "x": 714.438160489769
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "name": "rivers"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TARGET_CRS": "EPSG:102022"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:reprojectlayer", 
+                    "description": "Reproject Rivers"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISREPROJECTLAYER_2": {
+                "values": {
+                    "name": "QGISREPROJECTLAYER_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 353.84705503059376, 
+                            "x": 1001.6041667319341
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "name": "wdpa"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TARGET_CRS": "EPSG:102022"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:reprojectlayer", 
+                    "description": "Reproject WDPA"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISREPROJECTLAYER_3": {
+                "values": {
+                    "name": "QGISREPROJECTLAYER_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 352.9419331978633, 
+                            "x": 1288.5922923922046
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "name": "railways"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TARGET_CRS": "EPSG:102022"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:reprojectlayer", 
+                    "description": "Reproject Railways"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.BUFFER_1": {
+                "values": {
+                    "name": "GRASSR.BUFFER_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 682.7828142750336, 
+                            "x": 416.604572058279
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "distances": "1000", 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0, 
+                        "units": 0, 
+                        "input": {
+                            "values": {
+                                "alg": "GRASSR.RECLASS_1", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": null, 
+                        "-z": false
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.buffer", 
+                    "description": "Buffer WB 1000m"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.RECLASS_2": {
+                "values": {
+                    "name": "GRASSR.RECLASS_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 678.3738388574748, 
+                            "x": 129.0613788999599
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "rules": {
+                            "values": {
+                                "name": "slopereclassrules"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "input": {
+                            "values": {
+                                "name": "slope"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 0.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.reclass", 
+                    "description": "Reclass Slope for CSP"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.RECLASS_1": {
+                "values": {
+                    "name": "GRASSR.RECLASS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 578.8347423490518, 
+                            "x": 418.4096842053894
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "rules": {
+                            "values": {
+                                "name": "wbreclassrules"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "input": {
+                            "values": {
+                                "alg": "GRASSR.RESAMP.STATS_2", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 1000.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.reclass", 
+                    "description": "Reclass Water Bodies"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.RECLASS_6": {
+                "values": {
+                    "name": "GRASSR.RECLASS_6", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 757.180970021956, 
+                            "x": 1879.1568872226073
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "rules": {
+                            "values": {
+                                "name": "fllodzonesreclassrules"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "input": {
+                            "values": {
+                                "alg": "GRASSR.RESAMP.STATS_5", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 0.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.reclass", 
+                    "description": "Reclass Flood Zones"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.RECLASS_4": {
+                "values": {
+                    "name": "GRASSR.RECLASS_4", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 759.3354851807259, 
+                            "x": 1577.836338255102
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "rules": {
+                            "values": {
+                                "name": "landcoverreclassrules"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "input": {
+                            "values": {
+                                "alg": "GRASSR.RESAMP.STATS_3", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 0.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.reclass", 
+                    "description": "Reclass Land Cover"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_1": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 354.81231817343814, 
+                            "x": 419.69483921336814
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:102022", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 0, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "glwd3"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 0, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Reproject GLWD 3"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_3": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 357.8868133967043, 
+                            "x": 1573.5318036731871
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:102022", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 0, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "landcover"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 0, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Reproject LandCover"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRWARPREPROJECT_4": {
+                "values": {
+                    "name": "GDALOGRWARPREPROJECT_4", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 356.9887828858703, 
+                            "x": 1880.1328258143503
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "EXT_CRS": "EPSG:102022", 
+                        "ZLEVEL": 6.0, 
+                        "SOURCE_SRS": "EPSG:4326", 
+                        "DEST_SRS": "EPSG:102022", 
+                        "BIGTIFF": 0, 
+                        "TR": 0.0, 
+                        "RTYPE": 5, 
+                        "COMPRESS": 4, 
+                        "NO_DATA": null, 
+                        "TILED": false, 
+                        "RAST_EXT": {
+                            "values": {
+                                "alg": "MODELERTOOLSRASTERLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "JPEGCOMPRESSION": 75.0, 
+                        "INPUT": {
+                            "values": {
+                                "name": "floodzones"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TFW": false, 
+                        "METHOD": 0, 
+                        "PREDICTOR": 1.0, 
+                        "EXTRA": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:warpreproject", 
+                    "description": "Reproject Flood Zones"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISFIXEDDISTANCEBUFFER_1": {
+                "values": {
+                    "name": "QGISFIXEDDISTANCEBUFFER_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 449.5007369730468, 
+                            "x": 1003.138933637739
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "alg": "QGISREPROJECTLAYER_2", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "SEGMENTS": 5.0, 
+                        "DISSOLVE": false, 
+                        "DISTANCE": 500.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:fixeddistancebuffer", 
+                    "description": "Buffer WDPA 500m"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISFIXEDDISTANCEBUFFER_3": {
+                "values": {
+                    "name": "QGISFIXEDDISTANCEBUFFER_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 453.7991698813396, 
+                            "x": 1292.3475595865148
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "alg": "QGISREPROJECTLAYER_3", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "SEGMENTS": 5.0, 
+                        "DISSOLVE": false, 
+                        "DISTANCE": 500.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:fixeddistancebuffer", 
+                    "description": "Buffer Railways 500m"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISFIXEDDISTANCEBUFFER_2": {
+                "values": {
+                    "name": "QGISFIXEDDISTANCEBUFFER_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 448.49257447105066, 
+                            "x": 711.2589139582028
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "alg": "QGISREPROJECTLAYER_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "SEGMENTS": 5.0, 
+                        "DISSOLVE": false, 
+                        "DISTANCE": 1000.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:fixeddistancebuffer", 
+                    "description": "Buffer Rivers 500m"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SAGAINVERTDATANODATA_4": {
+                "values": {
+                    "name": "SAGAINVERTDATANODATA_4", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 758.4925744710508, 
+                            "x": 1291.692887995788
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "alg": "GRASSV.TO.RAST.VALUE_3", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "saga:invertdatanodata", 
+                    "description": "Invert data/no-data Railways"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SAGAINVERTDATANODATA_2": {
+                "values": {
+                    "name": "SAGAINVERTDATANODATA_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 759.4925744710506, 
+                            "x": 711.3907815573549
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "alg": "GRASSV.TO.RAST.VALUE_1", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "saga:invertdatanodata", 
+                    "description": "Invert data/no-data Rivers"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SAGAINVERTDATANODATA_3": {
+                "values": {
+                    "name": "SAGAINVERTDATANODATA_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 757.8903174731911, 
+                            "x": 1001.7024800633528
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "alg": "GRASSV.TO.RAST.VALUE_2", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "saga:invertdatanodata", 
+                    "description": "Invert data/no-data WDPA"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SAGAINVERTDATANODATA_1": {
+                "values": {
+                    "name": "SAGAINVERTDATANODATA_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 761.3973898878262, 
+                            "x": 415.2051209477015
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "alg": "GRASSR.BUFFER_1", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "saga:invertdatanodata", 
+                    "description": "Invert data/no-data WB"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

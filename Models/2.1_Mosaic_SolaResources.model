@@ -1,0 +1,336 @@
+{
+    "values": {
+        "inputs": {
+            "dniecowas": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 203.0, 
+                            "x": 125.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "dniecowas", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "DNI Cont. West frica"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "ghiecowas": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 282.0, 
+                            "x": 389.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "ghiecowas", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "GHI Cont. West frica"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "dnicaboverde": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 44.0, 
+                            "x": 121.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "dnicaboverde", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "DNI Cabo Verde"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "ghicaboverde": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 45.0, 
+                            "x": 390.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "ghicaboverde", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "GHI Cabo Verde"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {
+            "dniecowas": "Direct Normal Irradiance, computed by Cener, in kWh/m2/year. . Coverage : Continental West Africa. Spatial resolution: 1070m. \n\nRaster file: dni.tif", 
+            "ALG_DESC": "This model mosaics GHI and DNI layers for Continental Africa and Cabo Verde", 
+            "ALG_CREATOR": "Giacomo Delli \nSE4ALL EU-TAF expert \nThe EU 's Technical Assistance Facility (TAF) \nfor the Sustainable Energy for All (SE4ALL) initiative Central and Western Africa", 
+            "OUTPUT_ALGGDALOGRMERGE_2": "GHI Mosaic for ECOWAS region", 
+            "OUTPUT_ALGGDALOGRMERGE_1": "DNI Mosaic for ECOWAS region", 
+            "ghicaboverde": "Global Horizontal Irradiance computed by NOVELTIS, in kWh/m2/year. Coverage: Cabo Verde. Spatial resolution: 8000m. Projection: lat/long\n\nRaster File: CapeVerde_GHI.tif", 
+            "ghiecowas": "Global Horizontal Irradiance computed by Nexant - 3Tier, in kWh/m2/day. Coverage : Continental West Africa. Spatial resolution: 1070m. \n\nRaster file: ghi.tif", 
+            "dnicaboverde": "Direct Normal Irradiance computed by NOVELTIS, in kWh/m2/year. Coverage: Cabo Verde. Spatial resolution: 8000m. Projection: lat/long\n\nRaster File: CapeVerde_DNI.tif", 
+            "ALG_HELP_CREATOR": "Giacomo Delli \nSE4ALL EU-TAF expert \nThe EU 's Technical Assistance Facility (TAF) \nfor the Sustainable Energy for All (SE4ALL) initiative Central and Western Africa", 
+            "ALG_VERSION": "1.0"
+        }, 
+        "group": "2. Land Suitability", 
+        "name": "2.1 Mosaic SolarResources", 
+        "algs": {
+            "GDALOGRMERGE_1": {
+                "values": {
+                    "name": "GDALOGRMERGE_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT": {
+                            "values": {
+                                "description": "DNI_Ecowas", 
+                                "pos": {
+                                    "values": {
+                                        "y": 454.0, 
+                                        "x": 229.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 374.0, 
+                            "x": 129.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": [
+                            {
+                                "values": {
+                                    "name": "dniecowas"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GRASSR.RESAMP.INTERP_1", 
+                                    "output": "output"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }
+                        ], 
+                        "RTYPE": 5, 
+                        "PCT": false, 
+                        "SEPARATE": false
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:merge", 
+                    "description": "Mosaic DNI"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.RESAMP.INTERP_1": {
+                "values": {
+                    "name": "GRASSR.RESAMP.INTERP_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 121.0, 
+                            "x": 124.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "input": {
+                            "values": {
+                                "name": "dnicaboverde"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "-a_r.region": false, 
+                        "GRASS_REGION_PARAMETER": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 0.01, 
+                        "method": 2
+                    }, 
+                    "active": false, 
+                    "consoleName": "grass:r.resamp.interp", 
+                    "description": "Resample DNI Cabo Verde"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GDALOGRMERGE_2": {
+                "values": {
+                    "name": "GDALOGRMERGE_2", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT": {
+                            "values": {
+                                "description": "GHI_Ecowas", 
+                                "pos": {
+                                    "values": {
+                                        "y": 460.0, 
+                                        "x": 527.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 375.0, 
+                            "x": 387.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": [
+                            {
+                                "values": {
+                                    "name": "ghiecowas"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "GRASSR.RESAMP.INTERP_2", 
+                                    "output": "output"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }
+                        ], 
+                        "RTYPE": 5, 
+                        "PCT": false, 
+                        "SEPARATE": false
+                    }, 
+                    "active": true, 
+                    "consoleName": "gdalogr:merge", 
+                    "description": "Mosaic GHI"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.MAPCALCULATOR_1": {
+                "values": {
+                    "name": "GRASSR.MAPCALCULATOR_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 124.0, 
+                            "x": 388.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "fmap": null, 
+                        "emap": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 0.0, 
+                        "dmap": null, 
+                        "cmap": null, 
+                        "bmap": null, 
+                        "amap": {
+                            "values": {
+                                "name": "ghicaboverde"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "formula": "A/365", 
+                        "GRASS_REGION_PARAMETER": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.mapcalculator", 
+                    "description": "Convert GHI units"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSR.RESAMP.INTERP_2": {
+                "values": {
+                    "name": "GRASSR.RESAMP.INTERP_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 206.0, 
+                            "x": 388.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "input": {
+                            "values": {
+                                "alg": "GRASSR.MAPCALCULATOR_1", 
+                                "output": "outfile"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "-a_r.region": false, 
+                        "GRASS_REGION_PARAMETER": null, 
+                        "GRASS_REGION_CELLSIZE_PARAMETER": 0.01, 
+                        "method": 2
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:r.resamp.interp", 
+                    "description": "Resample GHI Cabo Verde"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}
